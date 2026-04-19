@@ -1,4 +1,4 @@
-# 🧭 Perspective Engine User Guide (Refined)
+# 🧭 Perspective Engine User Guide
 
 ## 🔹 When to Use This Tool
 
