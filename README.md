@@ -103,3 +103,7 @@ Perspective Engine is not:
 Perspective Engine is:
 
 > A tool to **expand and test your thinking structure**
+
+## Change log
+
+Perspective Engine v1.0 — Initial Release
