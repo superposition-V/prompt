@@ -1,109 +1,137 @@
-# 🧭 Perspective Engine User Guide
+# 🧭 Perspective Engine V1.1
 
-## 🔹 When to Use This Tool
+Perspective Engine is a lightweight prompt framework for generating, comparing, and stress-testing multiple perspectives.
 
-Use Perspective Engine when:
+It is useful when a question has no single obvious answer and you want to examine competing interpretations before reaching a provisional conclusion.
 
-* There is **no single correct answer**
-* You need to **compare multiple perspectives**
-* You want to **structure complex thinking**
-* You are making **non-trivial decisions**
-* You want to **test assumptions or hypotheses**
+> It does not produce truth.
+> It produces a structured reasoning path.
 
 ---
 
-## 🔹 When NOT to Use This Tool
+## When to Use
 
-Avoid Perspective Engine when:
+Use Perspective Engine when you want to:
 
-* The question has a **clear, factual answer**
-* You need a **quick response**
-* The situation requires **emotional support or empathy**
-* You are looking for **definitive truth, not structured reasoning**
+* Compare multiple perspectives
+* Test assumptions or hypotheses
+* Structure complex thinking
+* Explore strategic, technical, research, or decision problems
+* Understand how a conclusion might fail
 
----
+Good fit:
 
-## 🔹 Core Principle
-
-> The output is **one possible structure**, not the truth.
-
-Perspective Engine does not give “the answer.”
-It builds a **reasoned structure from competing perspectives**.
+```text
+Problem: Is this product failure mainly a market problem, a design problem, or an execution problem?
+```
 
 ---
 
-## 🔹 Recommended Use Cases
+## When Not to Use
 
-* Research exploration
-* Product / service design
-* Strategic decision-making
-* Technical system design
-* Academic hypothesis testing
-* Career decisions *(use caution in WARNING domains)*
+Do not use it when:
 
----
+* The question has a clear factual answer
+* A quick answer is enough
+* The issue requires emotional support
+* You need urgent real-world action
+* You are seeking definitive truth
 
-## 🔹 Not Recommended Use Cases
-
-* Urgent decisions requiring immediate action
-* Emotionally sensitive or therapeutic contexts
-* Simple factual questions with clear answers
+For simple factual questions, use a standard answer instead.
 
 ---
 
-## 🔹 How to Read the Output
+## Input Format
 
-### Confidence Levels
+```text
+Problem: {your question}
+Domain: {general / specialized}
+Output level: {technical / general / introductory}
+```
 
-* **Strong** → Structurally robust (but not guaranteed correct)
-* **Moderate** → Works under certain conditions
-* **Weak** → Requires further validation
+Only `Problem` is required.
 
----
+Defaults:
 
-### Direct Answer
-
-The “Direct Answer” is:
-
-* The **best conclusion within the current structure**
-* NOT a verified fact
-* NOT a final truth
-
-Read it as:
-
-> “Given these assumptions, this is the most consistent conclusion.”
+```text
+Domain: general
+Output level: general
+```
 
 ---
 
-## 🔹 WARNING Domains
+## Core Method
 
-For topics involving:
+Perspective Engine follows this structure:
+
+```text
+Problem Redefinition
+→ First Principle Reduction
+→ Perspective Generation
+→ Counterexample Testing
+→ Survival Judgment
+→ Confidence Evaluation
+→ Reconstruction
+→ Failure Conditions
+```
+
+Each perspective is stress-tested with counterexamples.
+
+Survival does not mean truth.
+It only means the perspective was not defeated under the stated assumptions and tests.
+
+---
+
+## Warning
+
+Use extra caution for topics involving:
 
 * Self-analysis
-* Philosophy / psychology
-* Identity / beliefs
+* Psychology
+* Identity
+* Beliefs
 * Value judgments
+* Medical, legal, financial, or mental health decisions
 
-Follow these rules:
+For these topics, treat the output as one possible interpretation, not as fact.
 
-* Do NOT use the result as a source of certainty
-* Always seek **external validation** (experts, research, real-world data)
-* Do NOT reinforce conclusions through repeated runs
+Do not use repeated runs to reinforce self-conviction.
+Seek external validation when the stakes are high.
 
 ---
 
-## 🔹 Safe Usage Mindset
+## Confidence Levels
 
-Perspective Engine is not:
+* **Strong**: structurally robust within the given assumptions
+* **Moderate**: conditionally valid
+* **Weak**: requires further validation
 
-* A decision-maker
-* A truth generator
-* A replacement for judgment
+Confidence is comparative and provisional, not absolute.
 
-Perspective Engine is:
+---
 
-> A tool to **expand and test your thinking structure**
+## Recommended Version
 
-## Change log
+Current recommended version:
 
-Perspective Engine v1.0 — Initial Release
+```text
+Perspective Engine V1.1
+```
+
+V1.0 is preserved for reference but is no longer recommended.
+
+---
+
+## Change Log
+
+### V1.1
+
+* Replaced absolute invalidation with structural stress-testing
+* Added provisional / conditional / untested survival categories
+* Clarified that absence of counterexamples is not proof
+* Improved handling of self-analysis and high-stakes topics
+* Added safer binary and non-binary answer handling
+
+### V1.0
+
+* Initial release
