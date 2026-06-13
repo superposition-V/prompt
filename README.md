@@ -124,7 +124,7 @@ V1.0 is preserved for reference but is no longer recommended.
 
 ## Change Log
 
-### V1.1
+### V1.1 (2026.06.08)
 
 * Replaced absolute invalidation with structural stress-testing
 * Added provisional / conditional / untested survival categories
@@ -132,6 +132,6 @@ V1.0 is preserved for reference but is no longer recommended.
 * Improved handling of self-analysis and high-stakes topics
 * Added safer binary and non-binary answer handling
 
-### V1.0
+### V1.0 (2026.04.19)
 
 * Initial release
