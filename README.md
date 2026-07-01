@@ -364,19 +364,7 @@ Conversation Mirror V1.0
 
 ## Change Log
 
-### Perspective Engine V1.1
-
-* Replaced absolute invalidation with structural stress-testing
-* Added provisional / conditional / untested survival categories
-* Clarified that absence of counterexamples is not proof
-* Improved handling of self-analysis and high-stakes topics
-* Added safer binary and non-binary answer handling
-
-### Perspective Engine V1.0
-
-* Initial release
-
-### Evidence-Aware Response Calibration V1.0
+### Evidence-Aware Response Calibration V1.0 (2026.07.01)
 
 * Added response calibration principle: "Calibrate the response, not the user"
 * Added evidence boundary between intention, self-description, action, artifact, feedback, source, pattern, and unknowns
@@ -385,10 +373,22 @@ Conversation Mirror V1.0
 * Added private-proof avoidance
 * Added internal calibration mode to reduce unnecessary output
 
-### Conversation Mirror V1.0
+### Conversation Mirror V1.0 (2026.07.01)
 
 * Added chronological conversation analysis
 * Added 10-axis change analysis
 * Added 5-level AI interaction model
 * Added separation between user-generated change and AI-assisted organization
+
+### Perspective Engine V1.1 (2026.06.08)
+
+* Replaced absolute invalidation with structural stress-testing
+* Added provisional / conditional / untested survival categories
+* Clarified that absence of counterexamples is not proof
+* Improved handling of self-analysis and high-stakes topics
+* Added safer binary and non-binary answer handling
+
+### Perspective Engine V1.0 (2026.04.19)
+
+* Initial release
 * Added limitations and confidence reporting
