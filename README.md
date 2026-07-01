@@ -392,7 +392,3 @@ Conversation Mirror V1.0
 * Added 5-level AI interaction model
 * Added separation between user-generated change and AI-assisted organization
 * Added limitations and confidence reporting
-
-```
-그리고 파일명은 `conservation_mirror`가 아니라 **`conversation_mirror.md`**가 좋습니다. “Conversation Mirror”가 의미상 정확합니다.
-```
